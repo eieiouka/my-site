@@ -17,7 +17,7 @@ export default function Hero() {
 
           <p className="hero-text">
             「計画性のないナノカちゃん」が作った、
-            イラストや情報をまとめたファンサイト
+            平和で健全なサイト
           </p>
 
           <div className="hero-buttons">
