@@ -19,8 +19,7 @@ export default function MiniGame() {
           <div className="minigame-content">
             <h3>桜羽エマ 処刑ゲーム</h3>
             <p>
-              ランダムに飛ぶ弾を、桜羽エマに当てるゲームよ。
-              命中すると血の色で染まるわ。
+              ランダムに飛ぶ弾を、桜羽エマに当てるゲームよ。命中すると血の色で染まるわ。
             </p>
           </div>
         </a>
