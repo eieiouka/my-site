@@ -9,6 +9,7 @@ export default function Header() {
         <nav className="nav">
           <a href="#sns">SNS</a>
           <a href="#about">About</a>
+          <a href="#link">Link</a> {/* ←追加 */}
           <a href="#gallery">Gallery</a>
         </nav>
       </div>
