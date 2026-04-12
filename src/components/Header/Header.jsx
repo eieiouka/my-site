@@ -10,7 +10,7 @@ export default function Header() {
             <a href="#sns">SNS</a>
             <a href="#about">About</a>
             <a href="#link">Link</a>
-            <a href="#minigame">Mini Game</a> {/* ←追加 */}
+            <a href="#game">Game</a> {/* ←追加 */}
             <a href="#gallery">Gallery</a>
           </nav>
       </div>
