@@ -16,8 +16,7 @@ export default function Hero() {
           <h1>ナノちゃんポータル</h1>
 
           <p className="hero-text">
-            「計画性のないナノカちゃん」が作った、
-            平和で健全なサイト
+            「計画性のないナノカちゃん」が作った、平和で健全なサイト
           </p>
 
           <div className="hero-buttons">

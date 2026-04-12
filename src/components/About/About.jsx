@@ -15,7 +15,8 @@ export default function About() {
       <h2>ナノちゃんのココが凄い！（ネタバレ注意）</h2>
 
       <p className="about-lead">
-        本名は黒部ナノカ。6月6日生まれの{" "}
+        本名は黒部ナノカ。<br />
+        6月6日生まれの{" "}
         <span className="age-wrap">
           <button
             type="button"
