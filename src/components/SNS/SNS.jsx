@@ -8,7 +8,7 @@ export default function SNS() {
 
       <div className="sns-cards">
         <a
-          href="https://x.com/ema_ha_aku"
+          href="https://x.com/nanochan_665"
           target="_blank"
           rel="noopener noreferrer"
           className="sns-card"
