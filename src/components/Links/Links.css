@@ -1,63 +1,52 @@
-.works {
+.links {
   color: #111;
 }
 
-.works-cards {
+.links-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
-.works-card {
+.links-card {
   display: block;
   border-radius: 20px;
   overflow: hidden;
   text-decoration: none;
   color: #111;
-
   background: #f7f7f7;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
-
   transition: transform 0.2s ease;
 }
 
-.works-card:hover {
+.links-card:hover {
   transform: translateY(-4px);
 }
 
-/* 画像 */
-.works-card img {
+.links-card img {
   width: 100%;
-  height: 200px;
+  height: 260px;
   object-fit: cover;
+  display: block;
 }
 
-/* テキスト */
-.works-content {
+.links-content {
   padding: 18px;
 }
 
-.works-content h3 {
+.links-content h3 {
   margin: 0 0 10px;
   font-size: 1.2rem;
 }
 
-.works-content p {
+.links-content p {
   margin: 0;
   color: #444;
   line-height: 1.7;
 }
 
-/* スマホ */
 @media (max-width: 768px) {
-  .works-cards {
+  .links-cards {
     grid-template-columns: 1fr;
   }
-}
-
-.gallery-item img,
-.links-card img {
-  width: 100%;
-  height: 260px;        /* ←ここで統一 */
-  object-fit: cover;    /* ←重要 */
 }
