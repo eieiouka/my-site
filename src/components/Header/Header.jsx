@@ -12,6 +12,7 @@ export default function Header() {
             <a href="#link">Link</a>
             <a href="#game">Game</a> {/* ←追加 */}
             <a href="#gallery">Gallery</a>
+            <a href="#cards">Cards</a>
           </nav>
       </div>
     </header>
