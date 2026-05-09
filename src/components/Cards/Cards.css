@@ -43,6 +43,34 @@
   margin-bottom: 0;
 }
 
+.learning-link {
+  border: none;
+  background: transparent;
+  color: #d6d6d6;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0 2px;
+}
+
+.learning-link:hover {
+  opacity: 0.7;
+}
+
+.learning-info-box {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 13px;
+  line-height: 1.7;
+  color: #bfc5cc;
+}
+
 /* ▼ タブ（左から並べる） */
 .cards-tabs {
   display: flex;

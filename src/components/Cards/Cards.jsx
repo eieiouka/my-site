@@ -6,6 +6,7 @@ const ranks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"];
 export default function Cards() {
   const [activeRank, setActiveRank] = useState("A");
   const [showAiInfo, setShowAiInfo] = useState(false);
+  const [showLearningInfo, setShowLearningInfo] = useState(false);
 
   const cards = [1, 2, 3, 4].map((num) => ({
     id: `${activeRank}${num}`,
@@ -39,8 +40,36 @@ export default function Cards() {
             </p>
 
             <p>
-              公式ガイドラインに配慮し、公式イラスト・ゲーム内素材をAIの学習用途には使用しておりません。
+              公式ガイドラインに配慮し、
+              公式イラスト・ゲーム内素材をAIの
+              <button
+                type="button"
+                className="learning-link"
+                onClick={() =>
+                  setShowLearningInfo((prev) => !prev)
+                }
+              >
+                学習用途
+              </button>
+              には使用しておりません。
             </p>
+
+            {showLearningInfo && (
+              <div className="learning-info-box">
+                <p>
+                  ※ここでの「学習用途」とは、
+                  AIモデルの追加学習
+                  （LoRA・DreamBooth・ファインチューニング等）
+                  を指します。
+                </p>
+
+                <p>
+                  画像を入力して変換を行う一般的な
+                  画像生成・補助利用（i2i等）とは
+                  区別しています。
+                </p>
+              </div>
+            )}
           </div>
         )}
       </div>
