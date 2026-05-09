@@ -40,7 +40,15 @@ export default function Cards() {
             </p>
 
             <p>
-              公式ガイドラインに配慮し、
+              <a
+                href="https://manosaba.com/guidelines"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="guideline-link"
+              >
+                公式ガイドライン
+              </a>
+              に配慮し、
               公式イラスト・ゲーム内素材をAIの
               <button
                 type="button"
