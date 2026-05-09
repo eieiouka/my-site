@@ -5,6 +5,7 @@ const ranks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"];
 
 export default function Cards() {
   const [activeRank, setActiveRank] = useState("A");
+  const [showAiInfo, setShowAiInfo] = useState(false);
 
   const cards = [1, 2, 3, 4].map((num) => ({
     id: `${activeRank}${num}`,
@@ -16,7 +17,32 @@ export default function Cards() {
     <section id="cards" className="cards-section">
       <div className="section-title-wrap">
         <p className="section-label">Cards</p>
+
         <h2 className="section-title">まのさばトランプ</h2>
+
+        <button
+          type="button"
+          className="ai-note-button"
+          onClick={() => setShowAiInfo((prev) => !prev)}
+        >
+          ※AI利用作品
+        </button>
+
+        {showAiInfo && (
+          <div className="ai-note-box">
+            <p>
+              本コンテンツはAI補助を用いて制作した二次創作です。
+            </p>
+
+            <p>
+              「魔法少女ノ魔女裁判」の権利は各権利者様に帰属します。
+            </p>
+
+            <p>
+              公式ガイドラインに配慮し、公式イラスト・ゲーム内素材をAIの学習用途には使用しておりません。
+            </p>
+          </div>
+        )}
       </div>
 
       <div className="cards-tabs">
