@@ -49,7 +49,7 @@ export default function Cards() {
                 公式ガイドライン
               </a>
               に配慮し、
-              公式イラスト・ゲーム内素材をAIの
+              公式イラストをAIの
               <button
                 type="button"
                 className="learning-link"
