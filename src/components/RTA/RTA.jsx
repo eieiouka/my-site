@@ -39,7 +39,7 @@ export default function RTA() {
             <h3>speedrun.com（まのさば）</h3>
             <p>
               まのさばRTAのランキングページはこちら。<br />
-              speedrun.comは、正式な記録フォーマットよ。
+              no_plan_nanokaが私よ。
             </p>
           </div>
         </a>
