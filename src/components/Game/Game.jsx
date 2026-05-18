@@ -24,34 +24,39 @@ export default function Game() {
           </div>
         </a>
 
-        {/* 2個目（リンク化） */}
+        {/* 2個目 */}
         <a
           href="https://ema-oshioki.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="game-card"
         >
-          <img src="/images/game2.jpg" alt="ナノちゃんミニゲーム2" />
+          <img src="/images/game2.jpg" alt="漢字力でエマちゃんを救おう！" />
 
           <div className="game-content">
             <h3>漢字力でエマちゃんを救おう！</h3>
             <p>
-              徐々に迫ってくるプレス機で桜羽エマが圧殺されないうちに、
-              漢字の読み方を10個答えるゲームよ。
+              徐々に迫ってくるプレス機で桜羽エマが圧殺されないうちに、漢字の読み方を10個答えるゲームよ。
             </p>
           </div>
         </a>
 
-        {/* 3個目（開発中） */}
-        <div className="game-card coming-soon">
-          <img src="/images/game3.jpg" alt="ナノちゃんミニゲーム3（開発中）" />
+        {/* 3個目 */}
+        <a
+          href="https://manosaba-boat-puzzle.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="game-card"
+        >
+          <img src="/images/game3.jpg" alt="まのさば船渡りパズル" />
 
           <div className="game-content">
-            <h3>ナノちゃんミニゲーム3</h3>
-            <p>面白いゲームを準備中よ。</p>
-            <span className="coming-label">Coming Soon</span>
+            <h3>まのさば船渡りパズル</h3>
+            <p>
+              全員を無事に向こう岸へ渡すパズルゲームよ。結構、難しいと思うわ。
+            </p>
           </div>
-        </div>
+        </a>
       </div>
     </section>
   );
