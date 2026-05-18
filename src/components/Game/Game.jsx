@@ -43,7 +43,7 @@ export default function Game() {
 
         {/* 3個目 */}
         <a
-          href="https://manosaba-boat-puzzle.vercel.app"
+          href="https://manosaba-boat-puzzle.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="game-card"
