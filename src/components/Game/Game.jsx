@@ -43,7 +43,7 @@ export default function Game() {
 
         {/* 3個目 */}
         <a
-          href="https://manosaba-boat-puzzle.vercel.app/"
+          href="https://ema-feeding-game.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="game-card"
@@ -51,9 +51,9 @@ export default function Game() {
           <img src="/images/game3.jpg" alt="まのさば船渡りパズル" />
 
           <div className="game-content">
-            <h3>まのさば船渡りパズル</h3>
+            <h3>桜羽エマに手料理を作ろう！</h3>
             <p>
-              全員を無事に向こう岸へ渡すパズルゲームよ。結構、難しいと思うわ。
+              食いしん坊な小娘に手料理を振る舞うわ。美味しく食べてくれるけど、4つ目のボタンを押したら…？
             </p>
           </div>
         </a>

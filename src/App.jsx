@@ -5,6 +5,7 @@ import SubSNS from "./components/SubSNS/SubSNS";
 import About from "./components/About/About";
 import Links from "./components/Links/Links";
 import Game from "./components/Game/Game";
+import Puzzle from "./components/Puzzle/Puzzle";
 import RTA from "./components/RTA/RTA";
 import Gallery from "./components/Gallery/Gallery";
 import Cards from "./components/Cards/Cards";
@@ -24,6 +25,7 @@ export default function App() {
 
         {/* ここに追加 */}
         <Game />
+        <Puzzle />
         <RTA />
         <Gallery />
         <Cards />
