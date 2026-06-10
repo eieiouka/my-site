@@ -28,7 +28,7 @@ export default function RTA() {
         </a>
 
         <a
-          href="https://www.speedrun.com/ja-JP/Magical_Girl_Witch_Trials"
+          href="https://www.speedrun.com/ja-JP/Magical_Girl_Witch_Trials?h=any&timer=twl&x=zd39jlrd"
           target="_blank"
           rel="noopener noreferrer"
           className="rta-card"
