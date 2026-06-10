@@ -4,11 +4,11 @@ export default function RTA() {
   return (
     <section id="rta" className="section rta">
       <p className="section-label">RTA</p>
-      <h2>まのさばRTA（5位）</h2>
+      <h2>まのさばRTA（4位）</h2>
 
       <div className="rta-grid">
         <a
-          href="https://x.com/ema_no_waruguti/status/2055588326560997706"
+          href="https://x.com/ema_no_waruguti/status/2064479229312692628"
           target="_blank"
           rel="noopener noreferrer"
           className="rta-card"
@@ -21,7 +21,7 @@ export default function RTA() {
           <div className="rta-content">
             <h3>まのさばRTA 記録動画</h3>
             <p>
-              現在、RTA 5位（1:13:06.45）よ。<br />
+              現在、RTA 4位（1:11:06.46）よ。<br />
               これからも記録更新を目指すわ。
             </p>
           </div>
