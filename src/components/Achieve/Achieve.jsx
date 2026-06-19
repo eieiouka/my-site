@@ -8,7 +8,7 @@ import Annihilation from "./Annihilation/Annihilation";
 
 export default function Achieve() {
   const [openItems, setOpenItems] = useState({
-    mahjongSoul: true,
+    mahjongSoul: false,
     mHoldem: false,
     pokerChase: false,
     shogiWars: false,
