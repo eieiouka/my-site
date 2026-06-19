@@ -26,7 +26,7 @@ export default function Achieve() {
     <section id="achieve" className="section achieve">
       <p className="section-label">Achieve</p>
 
-      <h2>私の実績集</h2>
+      <h2>ゲームの実績集</h2>
 
       <div className="achieve-wrapper">
         <button
