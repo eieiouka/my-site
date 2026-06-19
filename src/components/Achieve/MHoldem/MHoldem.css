@@ -1,0 +1,46 @@
+.mholdem-card {
+  padding-top: 40px;
+}
+
+.mholdem-title {
+  margin: 0 0 24px;
+
+  font-size: 1.8rem;
+  font-weight: 900;
+
+  color: #fff;
+
+  border-left: 6px solid #fff;
+  padding-left: 14px;
+}
+
+.mholdem-image {
+  width: 100%;
+  max-width: 500px;
+
+  display: block;
+
+  border-radius: 16px;
+
+  margin-bottom: 24px;
+}
+
+.mholdem-video {
+  margin-bottom: 24px;
+}
+
+.mholdem-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  border: none;
+  border-radius: 16px;
+}
+
+.mholdem-description {
+  margin: 0;
+
+  color: #ddd;
+
+  line-height: 1.8;
+}

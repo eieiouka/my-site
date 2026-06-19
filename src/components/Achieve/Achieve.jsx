@@ -1,4 +1,5 @@
 import MahjongSoul from "./MahjongSoul/MahjongSoul";
+import MHoldem from "./MHoldem/MHoldem";
 import "./Achieve.css";
 
 export default function Achieve() {
@@ -10,6 +11,7 @@ export default function Achieve() {
 
       <div className="achieve-wrapper">
         <MahjongSoul />
+        <MHoldem />
       </div>
     </section>
   );
