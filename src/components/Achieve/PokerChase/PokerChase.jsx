@@ -112,10 +112,6 @@ export default function PokerChase() {
 
   return (
     <div className="poker-chase-card">
-      <h3 className="poker-chase-title">
-        Poker Chase
-      </h3>
-
       <div className="poker-account-label">
         本垢（ダイヤ帯よ。当時は、レジェンド帯が誕生する前だったわ。）
       </div>

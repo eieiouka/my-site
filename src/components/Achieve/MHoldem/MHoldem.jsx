@@ -17,10 +17,6 @@ const data = {
 export default function MHoldem() {
   return (
     <div className="mholdem-card">
-      <h3 className="achieve-title">
-        エムホールデム
-      </h3>
-
       <img
         src={data.image}
         alt="M HOLD'EM戦績"

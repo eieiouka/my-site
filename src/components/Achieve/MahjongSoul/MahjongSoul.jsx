@@ -73,10 +73,6 @@ export default function MahjongSoul() {
 
   return (
     <div className="mahjong-soul-card">
-      <h3 className="achieve-title">
-        雀魂
-      </h3>
-
       <img
         src={stats.rankImage}
         alt="雀魂段位"
