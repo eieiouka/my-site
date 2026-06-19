@@ -7,6 +7,7 @@ import Links from "./components/Links/Links";
 import Game from "./components/Game/Game";
 import Puzzle from "./components/Puzzle/Puzzle";
 import RTA from "./components/RTA/RTA";
+import Achieve from "./components/Achieve/Achieve";
 import Gallery from "./components/Gallery/Gallery";
 import Cards from "./components/Cards/Cards";
 import "./App.css";
@@ -27,6 +28,7 @@ export default function App() {
         <Game />
         <Puzzle />
         <RTA />
+        <Achieve />
         <Gallery />
         <Cards />
       </main>

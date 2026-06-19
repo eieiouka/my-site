@@ -69,6 +69,7 @@ export default function Header() {
         <a onClick={(e) => { e.preventDefault(); scrollToSection("#game"); }}>Game</a>
         <a onClick={(e) => { e.preventDefault(); scrollToSection("#puzzle"); }}>Puzzle</a>
         <a onClick={(e) => { e.preventDefault(); scrollToSection("#rta"); }}>RTA</a>
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#achieve"); }}>Achieve</a>
         <a onClick={(e) => { e.preventDefault(); scrollToSection("#gallery"); }}>Gallery</a>
         <a onClick={(e) => { e.preventDefault(); scrollToSection("#cards"); }}>Cards</a>
       </nav>

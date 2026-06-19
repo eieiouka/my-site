@@ -1,0 +1,69 @@
+
+
+.mahjong-title {
+  margin: 0 0 20px;
+
+  color: #fff;
+}
+
+.mahjong-rank-image {
+  width: 100%;
+  max-width: 500px;
+
+  display: block;
+
+  border-radius: 16px;
+
+  margin-bottom: 24px;
+}
+
+.mahjong-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mahjong-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 70px;
+  gap: 12px;
+  align-items: center;
+
+  color: #fff;
+}
+
+.mahjong-bar-bg {
+  height: 14px;
+
+  background: #555;
+
+  border-radius: 999px;
+
+  overflow: hidden;
+}
+
+.mahjong-bar {
+  height: 100%;
+
+  background: #fff;
+
+  border-radius: 999px;
+}
+
+.mahjong-average {
+  margin-top: 24px;
+
+  color: #fff;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.mahjong-description {
+  margin-top: 16px;
+  margin-bottom: 0;
+
+  color: #ddd;
+
+  line-height: 1.8;
+}
