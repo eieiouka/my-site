@@ -1,0 +1,150 @@
+.poker-chase-card {
+  padding-top: 40px;
+}
+
+.poker-chase-title {
+  margin: 0 0 24px;
+
+  font-size: 1.8rem;
+  font-weight: 900;
+
+  color: #fff;
+
+  border-left: 6px solid #fff;
+  padding-left: 14px;
+}
+
+.poker-chase-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  margin-bottom: 28px;
+}
+
+.poker-chase-images img {
+  width: 100%;
+
+  display: block;
+
+  border-radius: 16px;
+}
+
+.poker-stage-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-bottom: 24px;
+}
+
+.poker-stage-tabs button {
+  border: 1px solid #555;
+  border-radius: 999px;
+
+  padding: 8px 14px;
+
+  background: transparent;
+  color: #fff;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.poker-stage-tabs button.active {
+  background: #fff;
+  color: #111;
+}
+
+.poker-stage-panel {
+  padding: 20px;
+
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.poker-stage-panel h4 {
+  margin: 0 0 18px;
+
+  color: #fff;
+}
+
+.poker-rank-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.poker-rank-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 70px;
+  gap: 12px;
+  align-items: center;
+
+  color: #fff;
+}
+
+.poker-rank-bar-bg {
+  height: 14px;
+
+  background: #555;
+
+  border-radius: 999px;
+
+  overflow: hidden;
+}
+
+.poker-rank-bar {
+  height: 100%;
+
+  background: #fff;
+
+  border-radius: 999px;
+}
+
+.poker-summary {
+  margin-top: 22px;
+
+  color: #ddd;
+  line-height: 1.8;
+}
+
+.poker-summary p {
+  margin: 0;
+}
+
+.poker-empty {
+  margin: 0;
+
+  color: #aaa;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .poker-chase-images {
+    grid-template-columns: 1fr;
+  }
+
+  .poker-rank-row {
+    grid-template-columns: 52px 1fr 64px;
+  }
+}
+
+.poker-chase-subaccount {
+  display: inline-block;
+
+  margin: 24px 0 16px;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  background: #333;
+
+  color: #fff;
+
+  font-size: 1rem;
+  font-weight: 700;
+}

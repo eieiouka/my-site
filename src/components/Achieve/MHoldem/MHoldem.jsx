@@ -5,9 +5,9 @@ const data = {
 
   description: (
     <>
-      エムホールデム（ポーカーアプリ）もやってたわ。
+      エムホールデム（ポーカーアプリ）もやってるわ。
       <br />
-      全国ランキング10位で、公式大会にも出たことがあるわよ。
+      全国ランキング10位で、公式大会（上の動画）にも出たことがあるわよ。
       <br />
       ちなみに、大会では8位だったわ。
     </>
@@ -17,7 +17,7 @@ const data = {
 export default function MHoldem() {
   return (
     <div className="mholdem-card">
-      <h3 className="mholdem-title">
+      <h3 className="achieve-title">
         エムホールデム
       </h3>
 
