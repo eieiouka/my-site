@@ -34,7 +34,7 @@ const pokerChaseData = {
 
     3: {
       promoted: true,
-      
+
       counts: {
         first: 5,
         second: 11,
@@ -47,6 +47,7 @@ const pokerChaseData = {
 
     4: {
       promoted: true,
+
       counts: {
         first: 4,
         second: 4,
@@ -59,8 +60,9 @@ const pokerChaseData = {
 
     5: {
       promoted: false,
+
       counts: {
-        first: 0,
+        first: 2,
         second: 0,
         third: 0,
         fourth: 0,
@@ -74,6 +76,15 @@ const pokerChaseData = {
       counts: null,
     },
   },
+};
+
+const stageLabels = {
+  1: "ビギナー",
+  2: "ブロンズ",
+  3: "シルバー",
+  4: "ゴールド",
+  5: "プラチナ",
+  6: "ダイヤモンド",
 };
 
 const rankLabels = [
@@ -150,24 +161,21 @@ export default function PokerChase() {
 
       <div className="poker-stage-tabs">
         {[1, 2, 3, 4, 5, 6].map((stage) => (
-            <button
+          <button
             key={stage}
             type="button"
             className={activeStage === stage ? "active" : ""}
             onClick={() => setActiveStage(stage)}
-            >
-            Stage {stage}
-            </button>
+          >
+            {stageLabels[stage]}
+          </button>
         ))}
       </div>
 
       <div className="poker-stage-panel">
         <h4>
-            Stage {activeStage}
-
-            {stageData.promoted
-                ? "（昇格済み）"
-                : ""}
+          {stageLabels[activeStage]}
+          {stageData.promoted ? "（昇格済み）" : ""}
         </h4>
 
         {counts ? (
