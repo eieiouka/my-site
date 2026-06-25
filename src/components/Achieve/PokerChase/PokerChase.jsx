@@ -76,7 +76,7 @@ const pokerChaseData = {
       counts: {
         first: 8,
         second: 5,
-        third: 6,
+        third: 7,
         fourth: 5,
         fifth: 1,
         sixth: 2,
