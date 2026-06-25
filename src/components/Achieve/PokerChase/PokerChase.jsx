@@ -74,12 +74,12 @@ const pokerChaseData = {
     6: {
       promoted: false,
       counts: {
-        first: 0,
-        second: 0,
-        third: 0,
-        fourth: 0,
-        fifth: 0,
-        sixth: 0,
+        first: 8,
+        second: 5,
+        third: 6,
+        fourth: 5,
+        fifth: 1,
+        sixth: 2,
       },
     },
   },
