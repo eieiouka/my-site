@@ -143,6 +143,18 @@ export default function PokerChase() {
         ) / totalGames
       : null;
 
+  const pointExpectation =
+    activeStage === 7 && counts && totalGames > 0
+      ? (
+          Number(counts.first ?? 0) * 40 +
+          Number(counts.second ?? 0) * 15 +
+          Number(counts.third ?? 0) * 3 +
+          Number(counts.fourth ?? 0) * 0 +
+          Number(counts.fifth ?? 0) * -18 +
+          Number(counts.sixth ?? 0) * -40
+        ) / totalGames
+      : null;
+
   const rates = rankLabels.map(([key, label]) => {
     const count = counts ? Number(counts[key] ?? 0) : null;
 
@@ -234,6 +246,14 @@ export default function PokerChase() {
                   ? "未入力"
                   : `${averageRank.toFixed(2)}位`}
               </p>
+
+              {activeStage === 7 && pointExpectation !== null && (
+                <p>
+                  ポイント期待値：
+                  {pointExpectation >= 0 ? "+" : ""}
+                  {pointExpectation.toFixed(2)}
+                </p>
+              )}
             </div>
           </>
         ) : (
