@@ -73,6 +73,7 @@ const pokerChaseData = {
 
     6: {
       promoted: true,
+
       counts: {
         first: 8,
         second: 5,
@@ -80,6 +81,19 @@ const pokerChaseData = {
         fourth: 5,
         fifth: 1,
         sixth: 2,
+      },
+    },
+
+    7: {
+      promoted: true,
+
+      counts: {
+        first: 6,
+        second: 5,
+        third: 2,
+        fourth: 4,
+        fifth: 4,
+        sixth: 3,
       },
     },
   },
@@ -92,6 +106,7 @@ const stageLabels = {
   4: "ゴールド",
   5: "プラチナ",
   6: "ダイヤモンド",
+  7: "レジェンド",
 };
 
 const rankLabels = [
@@ -167,7 +182,7 @@ export default function PokerChase() {
       </div>
 
       <div className="poker-stage-tabs">
-        {[1, 2, 3, 4, 5, 6].map((stage) => (
+        {[1, 2, 3, 4, 5, 6, 7].map((stage) => (
           <button
             key={stage}
             type="button"
@@ -189,10 +204,7 @@ export default function PokerChase() {
           <>
             <div className="poker-rank-chart">
               {rates.map((rate) => (
-                <div
-                  key={rate.key}
-                  className="poker-rank-row"
-                >
+                <div key={rate.key} className="poker-rank-row">
                   <span>{rate.label}</span>
 
                   <div className="poker-rank-bar-bg">
