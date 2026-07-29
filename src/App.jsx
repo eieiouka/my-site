@@ -28,10 +28,10 @@ export default function App() {
 
         <Game />
         <Puzzle />
-        <RTA />
-        <Achieve />
         <Cards />
         <PlayingCards />
+        <RTA />
+        <Achieve />
         <Gallery />
       </main>
     </>
