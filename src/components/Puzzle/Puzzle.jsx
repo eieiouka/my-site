@@ -19,7 +19,7 @@ export default function Puzzle() {
             <br />
             ② ヒロ ←
             <br />
-            ③ シェリー＋エマ →
+            ③ エマ＋シェリー →
             <br />
             ④ シェリー＋ハンナ ←
             <br />
@@ -31,7 +31,7 @@ export default function Puzzle() {
             <br />
             ⑧ エマ＋ハンナ ←
             <br />
-            ⑨ シェリー＋エマ →
+            ⑨ エマ＋シェリー →
             <br />
             ⑩ ヒロ ←
             <br />
@@ -44,7 +44,7 @@ export default function Puzzle() {
             <br />
             ② ヒロ ←
             <br />
-            ③ シェリー＋エマ →
+            ③ エマ＋シェリー →
             <br />
             ④ エマ＋ハンナ ←
             <br />
@@ -56,7 +56,7 @@ export default function Puzzle() {
             <br />
             ⑧ ヒロ ←
             <br />
-            ⑨ シェリー＋エマ →
+            ⑨ エマ＋シェリー →
             <br />
             ⑩ ホノカ ←
             <br />
@@ -72,7 +72,7 @@ export default function Puzzle() {
             <br />
             ⑯ エマ＋ハンナ ←
             <br />
-            ⑰ シェリー＋エマ →
+            ⑰ エマ＋シェリー →
             <br />
             ⑱ ヒロ ←
             <br />
