@@ -1,0 +1,36 @@
+@import "../Game/Game.css";
+
+/* トランプゲームだけ1列表示 */
+.playing-cards-list {
+  grid-template-columns: 1fr;
+}
+
+/* カード全体を黒ベースに */
+.playing-cards-list .game-card {
+  background: #111;
+  color: #fff;
+}
+
+/* 画像 */
+.playing-cards-list .game-card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+/* 文字色 */
+.playing-cards-list .game-content h3 {
+  color: #fff;
+}
+
+.playing-cards-list .game-content p {
+  color: #ccc;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .playing-cards-list .game-card img {
+    height: 240px;
+  }
+}

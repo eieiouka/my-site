@@ -51,7 +51,9 @@ export default function Header() {
     <header className="topbar">
       <div className="logo-area">
         <div className="logo-main">ナノちゃんポータル</div>
-        <div className="logo-sub">made by 計画性のないナノカちゃん</div>
+        <div className="logo-sub">
+          made by 計画性のないナノカちゃん
+        </div>
       </div>
 
       <nav
@@ -62,16 +64,105 @@ export default function Header() {
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
       >
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#sns"); }}>SNS</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#subsns"); }} className="nav-subsns">SubSNS</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}>About</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#links"); }}>Links</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#game"); }}>Game</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#puzzle"); }}>Puzzle</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#rta"); }}>RTA</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#achieve"); }}>Achieve</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#gallery"); }}>Gallery</a>
-        <a onClick={(e) => { e.preventDefault(); scrollToSection("#cards"); }}>Cards</a>
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#sns");
+          }}
+        >
+          SNS
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#subsns");
+          }}
+          className="nav-subsns"
+        >
+          SubSNS
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#about");
+          }}
+        >
+          About
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#links");
+          }}
+        >
+          Links
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#game");
+          }}
+        >
+          Game
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#puzzle");
+          }}
+        >
+          Puzzle
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#rta");
+          }}
+        >
+          RTA
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#achieve");
+          }}
+        >
+          Achieve
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#gallery");
+          }}
+        >
+          Gallery
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#cards");
+          }}
+        >
+          Cards
+        </a>
+
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("#playing-cards");
+          }}
+        >
+          Playing Cards
+        </a>
       </nav>
     </header>
   );
