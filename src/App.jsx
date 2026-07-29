@@ -26,14 +26,13 @@ export default function App() {
         <About />
         <Links />
 
-        {/* ここに追加 */}
         <Game />
         <Puzzle />
         <RTA />
         <Achieve />
-        <Gallery />
         <Cards />
         <PlayingCards />
+        <Gallery />
       </main>
     </>
   );

@@ -28,8 +28,7 @@ export default function PlayingCards() {
             <h3>MANOSABA CARD GAMES</h3>
 
             <p>
-              七並べをはじめ、まのさばキャラクターで遊べる
-              トランプゲーム集です。
+              まのさばトランプで遊べるわ。CPUはなるべく強くしてるわよ。
             </p>
           </div>
         </a>

@@ -64,12 +64,7 @@ export default function Header() {
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
       >
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#sns");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#sns"); }}>
           SNS
         </a>
 
@@ -83,75 +78,31 @@ export default function Header() {
           SubSNS
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#about");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}>
           About
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#links");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#links"); }}>
           Links
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#game");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#game"); }}>
           Game
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#puzzle");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#puzzle"); }}>
           Puzzle
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#rta");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#rta"); }}>
           RTA
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#achieve");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#achieve"); }}>
           Achieve
         </a>
 
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#gallery");
-          }}
-        >
-          Gallery
-        </a>
-
-        <a
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection("#cards");
-          }}
-        >
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#cards"); }}>
           Cards
         </a>
 
@@ -162,6 +113,10 @@ export default function Header() {
           }}
         >
           Playing Cards
+        </a>
+
+        <a onClick={(e) => { e.preventDefault(); scrollToSection("#gallery"); }}>
+          Gallery
         </a>
       </nav>
     </header>
