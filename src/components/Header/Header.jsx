@@ -122,15 +122,6 @@ export default function Header() {
         <a
           onClick={(e) => {
             e.preventDefault();
-            scrollToSection("#cards");
-          }}
-        >
-          Cards
-        </a>
-
-        <a
-          onClick={(e) => {
-            e.preventDefault();
             scrollToSection("#playing-cards");
           }}
         >
